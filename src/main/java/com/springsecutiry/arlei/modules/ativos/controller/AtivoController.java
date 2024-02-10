@@ -1,4 +1,4 @@
-package com.springsecutiry.fiap.modules.ativos.controller;
+package com.springsecutiry.arlei.modules.ativos.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springsecutiry.fiap.modules.ativos.entity.Ativo;
-import com.springsecutiry.fiap.modules.ativos.service.AtivosService;
+import com.springsecutiry.arlei.modules.ativos.entity.Ativo;
+import com.springsecutiry.arlei.modules.ativos.service.AtivosService;
 
 @RestController
 @RequestMapping("/ativos")

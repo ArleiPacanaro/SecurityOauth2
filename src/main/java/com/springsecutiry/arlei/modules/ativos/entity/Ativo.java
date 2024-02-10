@@ -1,4 +1,4 @@
-package com.springsecutiry.fiap.modules.ativos.entity;
+package com.springsecutiry.arlei.modules.ativos.entity;
 
 import java.math.BigDecimal;
 import java.util.UUID;
