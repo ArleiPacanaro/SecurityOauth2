@@ -21,9 +21,9 @@ public class securityConfig {
                              authorizeConfig.requestMatchers("/logout").permitAll();
                              // Acima permitindo que os endpoints marcados sejam acessados sem autenticação...
                              authorizeConfig.anyRequest().authenticated();
-                             // aqui configurando que os demais ednpoints so devem ser acessados com autemticação
-                         }).httpBasic(Customizer.withDefaults())
-                // usando uma autenticação básica.
+                             // aqui configurando que os demais endpoints so devem ser acessados com autemticação
+                         }).oauth2Login(Customizer.withDefaults())
+                // usando uma autenticação básica. agora mudei para oauth2
                  .build();
      }
  }

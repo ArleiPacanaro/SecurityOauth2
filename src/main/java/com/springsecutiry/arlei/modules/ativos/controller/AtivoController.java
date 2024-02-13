@@ -2,12 +2,12 @@ package com.springsecutiry.arlei.modules.ativos.controller;
 
 import java.util.List;
 
+import com.springsecutiry.arlei.modules.ativos.entity.Ativo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springsecutiry.arlei.modules.ativos.entity.Ativo;
 import com.springsecutiry.arlei.modules.ativos.service.AtivosService;
 
 @RestController

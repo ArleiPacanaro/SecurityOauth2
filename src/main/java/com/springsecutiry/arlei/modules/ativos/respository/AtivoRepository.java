@@ -1,4 +1,4 @@
-package com.springsecutiry.arlei.modules.ativos.repository;
+package com.springsecutiry.arlei.modules.ativos.respository;
 
 import java.util.List;
 import java.util.UUID;
